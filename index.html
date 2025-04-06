@@ -76,5 +76,22 @@
     <footer class="bg-white border-t p-4 text-center">
       <p>&copy; 2025 Discover Kazakhstan. All rights reserved.</p>
     </footer>
+    <!-- Footer -->
+    <footer class="bg-white dark:bg-gray-800 border-t dark:border-gray-700 p-4 text-center transition-colors duration-500">
+        <p class="text-gray-600 dark:text-gray-400">&copy; 2025 Discover Kazakhstan. All rights reserved.</p>
+      </footer>
+  
+  
+      <!-- Animation Styles -->
+      <style>
+        .animate-fadeIn {
+          animation: fadeIn 0.8s ease-in forwards;
+          opacity: 0;
+        }
+        .delay-200 { animation-delay: 0.2s; }
+        @keyframes fadeIn {
+          to { opacity: 1; transform: translateY(0); }
+          from { opacity: 0; transform: translateY(10px); }
+        }
   </body>
 </html>
